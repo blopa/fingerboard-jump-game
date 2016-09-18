@@ -87,7 +87,8 @@ var DEFAULT_WIDTH = 600;
 var FPS = 60;
 
 /** @const */
-var IS_HIDPI = window.devicePixelRatio > 1;
+//var IS_HIDPI = window.devicePixelRatio > 1;
+var IS_HIDPI = true;
 
 /** @const */
 var IS_IOS = window.navigator.userAgent.indexOf('CriOS') > -1 ||
